@@ -1,1 +1,34 @@
 List of general commands
+
+I'm gonna use Windows 10 as a main OS but will put here information and for macOs and LinuxMint.
+I'll use Visual Studio Code as a main code editor.
+
+
+Section 0 - SetUp.
+
+In GIT we have got next general levels for settings:
+1. SYSTEM - for all the users and all the repositories at current computer.
+2. GLOBAL - for all the repositories of this current user. (I'LL USE THIS CASE!)
+3. LOCAL - for a current repository.
+
+First of all we should setup next parameters:
+1. User name.
+  CLI => git config --global user.name "[FIRST NAME] [LAST NAME]"
+2. User Email.
+  CLI => git config --global user.email [USER EMAIL]
+3. Default code editor.
+  CLI => git config --global core.editor "code --wait"
+4. Line ending.
+  CLI WINDOWS => git config --global core.autocrlf true
+  CLI macOS/Linux => git config --global core.autocrlf input
+ 
+??? How to check all the settings?:
+  CLI => git config -e
+This connand will open a file .gitconfig
+
+??? How to launch the VSC from CLI?:
+  CLI WINDOWS => git code .
+  CLI macOS/Linux => git code
+
+
+
