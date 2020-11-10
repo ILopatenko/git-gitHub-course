@@ -29,6 +29,9 @@ This connand will open a file .gitconfig
 ??? How to launch the VSC from CLI?:
   CLI WINDOWS => git code .
   CLI macOS/Linux => git code
-
+  
+??? Where to get GIT documentation/information?:
+  CLI => git config --help
+or visit git-scm.com/docs
 
 
