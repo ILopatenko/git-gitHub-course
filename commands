@@ -31,7 +31,7 @@ This connand will open a file .gitconfig
   
 ??? Where to get GIT documentation/information?:
   CLI => git config --help
-or visit git-scm.com/docs
+or visit www.git-scm.com/docs
 
 
 Section 1 - Basic commands.
