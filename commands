@@ -50,3 +50,6 @@ Section #5 - Collaboration.
 
 ??? How to know an URL of origin repository on local machine?:
 CLI => git remote -v
+
+??? How to download all the changes from a remote repository (GitHub) to a local repository (machine)?:
+  CLI => git fetch origin [also we can use a name of a specific branch - not all the project just a specific branch]
