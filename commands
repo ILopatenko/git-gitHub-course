@@ -38,6 +38,11 @@ Section #1 - Basic commands.
 Section #2 - History
 Section #3 -
 Section #4 -
-Section #5 - Collaboration.
 
-//
+
+
+
+Section #5 - Collaboration.
+??? How to clone a GitHub repository to a local machine?:
+  CLI => git clone [URL GitHub repository]
+  CLI => git clone https://github.com/ILopatenko/git-gitHub-course.git
