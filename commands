@@ -52,4 +52,9 @@ Section #5 - Collaboration.
 CLI => git remote -v
 
 ??? How to download all the changes from a remote repository (GitHub) to a local repository (machine)?:
-  CLI => git fetch origin [also we can use a name of a specific branch - not all the project just a specific branch]
+CLI => git fetch origin [also we can use a name of a specific branch - not all the project just a specific branch]
+    ??? How to check a current difference between local master branch and remote master branch?:
+    CLI => git branch -vv
+And the last step is the regular merge:
+CLI => git merge origin/main
+
