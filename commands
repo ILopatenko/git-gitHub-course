@@ -43,6 +43,10 @@ Section #4 -
 
 
 Section #5 - Collaboration.
+
 ??? How to clone a GitHub repository to a local machine?:
   CLI => git clone [URL GitHub repository]
   CLI => git clone https://github.com/ILopatenko/git-gitHub-course.git
+
+??? How to know an URL of origin repository on local machine?:
+CLI => git remote -v
