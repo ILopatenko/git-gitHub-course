@@ -58,10 +58,4 @@ CLI => git fetch origin [also we can use a name of a specific branch - not all t
 And the last step is the regular merge:
 CLI => git merge origin/main
 
-//
-//
-//
-//
-//
-//
-//
+
